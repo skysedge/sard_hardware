@@ -5203,6 +5203,12 @@
 		(uuid "709ace63-cc6a-44ca-bd3c-cde7e4af986f")
 	)
 	(junction
+		(at 280.67 311.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "760cf04a-04cd-4e20-b9b5-a39465734c98")
+	)
+	(junction
 		(at 318.77 144.78)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5267,6 +5273,10 @@
 	(no_connect
 		(at 240.03 284.48)
 		(uuid "09f8e4f9-fe04-4bbc-8303-c0807b4ea434")
+	)
+	(no_connect
+		(at 199.39 259.08)
+		(uuid "13219e2e-822f-479e-a7f5-d749a48a32dd")
 	)
 	(no_connect
 		(at 240.03 175.26)
@@ -5373,7 +5383,7 @@
 		(uuid "86b4c070-9e31-43bf-bea3-b8becc030d08")
 	)
 	(no_connect
-		(at 303.53 298.45)
+		(at 303.53 308.61)
 		(uuid "87a0ffb1-5477-4b20-a3ac-fef5af129a33")
 	)
 	(no_connect
@@ -5515,6 +5525,16 @@
 			(type default)
 		)
 		(uuid "09c881d8-1617-4ebf-87d6-722815636469")
+	)
+	(wire
+		(pts
+			(xy 101.6 311.15) (xy 101.6 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a3875bd-cb32-4c5f-9db9-422cb379c8d8")
 	)
 	(wire
 		(pts
@@ -5688,7 +5708,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 303.53) (xy 303.53 303.53)
+			(xy 297.18 313.69) (xy 303.53 313.69)
 		)
 		(stroke
 			(width 0)
@@ -5755,6 +5775,16 @@
 			(type default)
 		)
 		(uuid "3656bb3f-f8a4-4f3a-8e9a-ec6203c87a56")
+	)
+	(wire
+		(pts
+			(xy 280.67 311.15) (xy 101.6 311.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3778e048-b73b-4124-9baf-ad46fe65f090")
 	)
 	(wire
 		(pts
@@ -5858,7 +5888,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 300.99) (xy 303.53 300.99)
+			(xy 280.67 311.15) (xy 303.53 311.15)
 		)
 		(stroke
 			(width 0)
@@ -5908,7 +5938,7 @@
 	)
 	(wire
 		(pts
-			(xy 280.67 261.62) (xy 280.67 300.99)
+			(xy 280.67 261.62) (xy 280.67 311.15)
 		)
 		(stroke
 			(width 0)
@@ -6018,6 +6048,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 252.73) (xy 116.84 252.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67ada41d-ece3-420a-84b5-1b2015d8a131")
+	)
+	(wire
+		(pts
 			(xy 283.21 109.22) (xy 283.21 187.96)
 		)
 		(stroke
@@ -6098,7 +6138,7 @@
 	)
 	(wire
 		(pts
-			(xy 297.18 303.53) (xy 297.18 307.34)
+			(xy 297.18 313.69) (xy 297.18 317.5)
 		)
 		(stroke
 			(width 0)
@@ -6715,16 +6755,6 @@
 			(type default)
 		)
 		(uuid "dec284d9-246c-4619-8dcc-8f4886f9349e")
-	)
-	(wire
-		(pts
-			(xy 175.26 259.08) (xy 199.39 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e096fe92-e8b5-4df9-91c6-f3d6252fff68")
 	)
 	(wire
 		(pts
@@ -8348,17 +8378,6 @@
 		)
 		(uuid "c15c88d5-95ef-4b91-8be4-09d8ddecfafe")
 	)
-	(label "GPIO 6"
-		(at 175.26 259.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c7e807e4-b322-419d-bd7c-f7021f3c24bc")
-	)
 	(label "GPIO 20"
 		(at 262.89 231.14 0)
 		(fields_autoplaced yes)
@@ -9572,7 +9591,7 @@
 	)
 	(symbol
 		(lib_id "MyLibrary:Rotary_Dial")
-		(at 318.77 302.26 270)
+		(at 318.77 312.42 270)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9581,7 +9600,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cdad29e")
 		(property "Reference" "SW2"
-			(at 331.47 294.005 90)
+			(at 331.47 304.165 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9590,7 +9609,7 @@
 			)
 		)
 		(property "Value" "Roller Switch for Rotary Dial"
-			(at 303.53 287.02 90)
+			(at 303.53 297.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9599,7 +9618,7 @@
 			)
 		)
 		(property "Footprint" "MyFootprints:LimitSwitch_D2F-01FL2-A1"
-			(at 341.63 308.61 0)
+			(at 341.63 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9608,7 +9627,7 @@
 			)
 		)
 		(property "Datasheet" "https://media.digikey.com/pdf/Data%20Sheets/Omron%20PDFs/D2F_0318_DS.pdf"
-			(at 341.63 308.61 0)
+			(at 341.63 318.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9617,7 +9636,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 318.77 302.26 0)
+			(at 318.77 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +9645,7 @@
 			)
 		)
 		(property "Mfg. Name" "Omron"
-			(at 318.77 302.26 0)
+			(at 318.77 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9635,7 +9654,7 @@
 			)
 		)
 		(property "Mfg. Part No." "D2F-01FL2-A1"
-			(at 318.77 302.26 0)
+			(at 318.77 312.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9663,7 +9682,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 297.18 307.34 0)
+		(at 297.18 317.5 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9672,7 +9691,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005cdad2dd")
 		(property "Reference" "#PWR0101"
-			(at 297.18 313.69 0)
+			(at 297.18 323.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9681,7 +9700,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 297.053 311.7342 0)
+			(at 297.053 321.8942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9689,7 +9708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 297.18 307.34 0)
+			(at 297.18 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9698,7 +9717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 297.18 307.34 0)
+			(at 297.18 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9707,7 +9726,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 297.18 307.34 0)
+			(at 297.18 317.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)

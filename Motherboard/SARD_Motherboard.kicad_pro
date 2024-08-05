@@ -508,7 +508,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "RUSP_Mainboard.net",
-      "plot": "",
+      "plot": "Fab/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
